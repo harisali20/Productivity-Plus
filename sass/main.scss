@@ -25,3 +25,54 @@ body{
 }
 
 
+
+
+.custom-height {
+  height: 200px;
+}
+
+.custom-height-short {
+  height: 150px;
+}
+
+.custom-height-tall {
+  height: 300px;
+}
+
+
+// [class*="col"]{
+//   padding: 1rem;
+//   background-color: lightblue;
+//   border: 2px solid white;
+//   color: white;
+// }
+
+
+
+
+.circle{
+  background-color: $secondary;
+  padding: 20px;
+  width: 300px;
+  height: 180px;
+  border-radius: 50%;
+  border-width: 10px;
+  border-color: red;
+}
+
+.circle p{
+  font-size: 14px;
+}
+
+
+
+.featuresimg{
+  width: 400px;
+}
+
+@media screen and (max-width: 480px){
+  .featuresimg{
+    width: 250px;
+  }  
+}
+
