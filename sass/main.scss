@@ -1,8 +1,24 @@
 $Dark: #28292C; //BackGroundColor
 $primary: #DBE7F5; //buttons color
 $font: white;
-$secondary: #E5E3E5;//for the white stuff in the design.
+$secondary: #7b797b;//for the white stuff in the design.
 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 @import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+body{
+  font-family: "Roboto", sans-serif;
+  background-color: $Dark;
+  color: white;
+}
+
+
+.logo{
+  width: 100px;
+  border-radius: 50px;
+}
+
+
