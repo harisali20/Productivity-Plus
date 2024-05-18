@@ -1,7 +1,7 @@
 $Dark: #28292C; //BackGroundColor
 $primary: #DBE7F5; //buttons color
 $font: white;
-$secondary: #7b797b;//for the white stuff in the design.
+$secondary: #484848;//for the white stuff in the design.
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
@@ -17,8 +17,127 @@ body{
 
 
 .logo{
-  width: 100px;
+  margin-top: -30px;
+  width: 120px;
   border-radius: 50px;
 }
 
+.main{
+}
 
+
+
+
+.custom-height {
+  height: 200px;
+}
+
+.custom-height-short {
+  height: 150px;
+}
+
+.custom-height-tall {
+  height: 300px;
+}
+
+
+// [class*="col"]{
+//   padding: 1rem;
+//   background-color: lightblue;
+//   border: 2px solid white;
+//   color: white;
+// }
+
+
+
+
+.circle{
+  background-color: $secondary;
+  padding: 20px;
+  width: 300px;
+  height: 180px;
+  border-radius: 50%;
+  border-width: 10px;
+  border-color: red;
+}
+
+.circle p{
+  font-size: 14px;
+}
+
+
+
+.featuresimg{
+  width: 400px;
+}
+
+@media screen and (max-width: 480px){
+  .featuresimg{
+    width: 250px;
+  }  
+}
+
+
+
+
+// for footer
+
+.nav-item{
+  color: red;
+}
+
+.cardteam{
+  background-color: $secondary;
+}
+
+
+
+
+.card-img-top{
+  width: 250px;
+}
+
+.cardteam{
+  border-radius: 20px;
+}
+
+
+.submitbtn{
+  width: 150px;
+  padding: 20px;
+}
+
+
+.joinusimg{
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+
+//for the log in form
+
+
+
+.nav-tabs .nav-link.active {
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.form-control:focus {
+  border-color: $primary-color;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  border-color: $primary-color;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+    border-color: darken($primary-color, 10%);
+  }
+}

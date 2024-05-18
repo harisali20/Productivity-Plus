@@ -10,41 +10,457 @@
 </head>
 <body>
   <!--NavBar-->
-  <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 fixed-top">
+  <div class="b-example-divider"></div>
 
-    <div class="container">
-      <a href="#" class="navbar-brand">
-        <img src="images/Logo.jpeg" alt="" class="logo">
-      </a>
-
-      <button
-      class="navbar-toggler"
-      type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navmenu"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navmenu">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a href="#features" class="nav-link">Features</a>
-          </li>
-          <li class="nav-item">
-            <a href="#Team" class="nav-link">Team</a>
-          </li>
-          <li class="nav-item">
-            <a href="#Contact-us" class="nav-link">ContactUs</a>
-          </li>
-        </ul>
-
-
+  <div class="container">
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <div class="col-md-3 mb-2 mb-md-0">
+        <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+          <img src="images/Logo.jpeg" class="bi" width="120" role="img" aria-label="logo"></img>
+        </a>
       </div>
 
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="#home" class="nav-link px-2 link-secondary">Home</a></li>
+        <li><a href="#features" class="nav-link px-2">Features</a></li>
+        <li><a href="#team" class="nav-link px-2">Team</a></li>
+        <li><a href="#contact" class="nav-link px-2">ContactUs</a></li>
+        <li><a href="#" class="nav-link px-2">About</a></li>
+      </ul>
+
+      <div class="col-md-3 text-end">
+        <button type="button" class="btn login-btn btn-outline-primary me-2" onclick="window.location.href='login.html'">Login</button>
+        <button type="button" class="btn try-btn btn-primary">Try For Free</button>
+      </div>
+    </header>
   </div>
 
 
 
+
+  <div class="b-example-divider"></div>
+
+  <div class="container" id="home">
+    <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+
+      <div class="col-10 col-sm-8 col-lg-6">
+        <img src="images/hero.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+      </div>
+
+      <div class="col-lg-6">
+        <h1 class="text-white  fw-bold lh-2 mb-3">
+          Streamline Your Workflow with Integrated Note-taking, Task Management, and AI Capabilities
+        </h1>
+        <br>
+        
+        <p class="">Welcome to ProductivityPlus, your ultimate productivity companion designed to simplify your daily workflow and enhance your efficiency. 
+          Say goodbye to scattered notes, missed deadlines, and juggling multiple tools. 
+          <br>
+          With ProductivityPlus, everything you need to stay organized and focused is at your fingertips.</p>
+
+        <br>
+
+
+
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Learn More</button>
+          <button type="button" class="btn btn-outline-secondary btn-lg px-4">Sign in</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- For Features. -->
+      
+  <div class="b-example-divider"></div>
+
+  <div class="container features" id="features">
+    <h3 class="fw-bold text-center">Features</h3>
+
+    <div class="container text-center">
+
+      <div class="row">
+
+        <div class="col-sm-6 custom-height d-flex justify-content-center">
+          <div class="circle">
+            <p>
+              <strong>Project Tracking</strong>
+              <br>
+              <br>
+              Get a comprehensive overview of project 
+              progress, milestones, and deadlines to ensure 
+              projects stay on schedule and within scope. 
+            </p>
+
+          </div>
+        </div>
+
+        <div class="col-sm-6 custom-height d-flex justify-content-center">
+          <div class="circle">
+            <p>
+              <strong>Note-taking</strong>
+              <br>
+              <br>
+              Capture your ideas with ease using text, 
+              image, or audio notes, and organize them 
+              into projects or categories.
+            </p>
+
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+      <div class="row">
+        <div class="col custom-height-tall">
+          <img src="images/features.png" alt="" class="featuresimg">
+        </div>
+      </div>
+
+    
+      <div class="row">
+        
+        <div class="col-sm-6 custom-height d-flex justify-content-center">
+          <div class="circle">
+            <p>
+              <strong>To-Do Lists</strong><br>
+              <br>
+              Stay organized with customizable to-do lists for 
+              daily, weekly, or monthly tasks, helping you 
+              prioritize and manage your time effectively
+            </p>
+
+          </div>
+        </div>
+
+        
+        <div class="col-sm-6 custom-height d-flex justify-content-center">
+          <div class="circle">
+            <p>
+              <strong>Task Management</strong><br>
+              <br>
+              Create, prioritize, and track tasks effortlessly, 
+              set deadlines, assign tasks to team 
+              members, and receive reminders to stay on 
+              top of your workload.
+              </p>
+
+          </div>
+        </div>
+
+      </div>
+
+    
+      <div class="row">
+        
+        <div class="col-sm-12 custom-height d-flex justify-content-center">
+          <div class="circle">
+            <p>
+              <strong>Unified Dashboar</strong><br>
+              <br>
+              Access all your productivity tools in one 
+              centralized dashboard for seamless navigation 
+              and organization.</p>
+
+          </div>
+        </div>
+
+      </div>
+
+
+
+    
+    </div>
+    
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+
+  <section id="team" class="p-5 ">
+
+    <div class="container">
+      <h2 class="text-center text-white fw-bold">Our Team</h2>
+      <p class="lead text-center text-white mb-5" >Our Team all have 2+ years working in the industry.</p>
+
+
+      <div class="row g-4 justify-content-center">
+
+
+        
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card body text-center bg-secondary text-white">
+              <img src="images/ahmed.png" alt="" class="mb-3">
+
+              <br>
+              <h3 class="card-title mb-3 fw-bold">Ahmed Alsakkaf</h3>
+              <h3 class="fs-5 mb-2 fw-bold">SP22-BSE-052</h3>
+              <br>
+              <br>
+
+
+              <p class="card-text">Ahmed Alsakkaf is the responsible and 
+                the main instructor
+                who will track your progress and see what's your current level.
+
+              </p>
+
+              
+              <a href="https://www.instagram.com/alsaqqaf_13/" style="text-decoration: none;" target="_blank">
+                <i class="bi bi-twitter text-dark"></i>
+              </a>
+
+  
+              
+
+            </div>
+            
+          </div>
+        </div>
+
+
+
+        <div class="col-md-6 col-lg-3">
+          <div class="card bg-light">
+            <div class="card body text-center bg-secondary text-white">
+              <img src="images/hariss.png" alt="" class="mb-3">
+
+              <br>
+              <h3 class="card-title mb-3 fw-bold">Haris Ali</h3>
+              <h3 class="fs-5 mb-2 fw-bold">SP22-BSE-016</h3>
+              <br>
+              <br>
+
+
+              <p class="card-text">Ahmed Alsakkaf is the responsible and 
+                the main instructor
+                who will track your progress and see what's your current level.
+
+              </p>
+
+              
+              <a href="https://www.instagram.com/alsaqqaf_13/" style="text-decoration: none;" target="_blank">
+                <i class="bi bi-twitter text-dark"></i>
+              </a>
+
+  
+              
+
+            </div>
+            
+          </div>
+        </div>
+
+<!--         
+        <div class="container col-8">
+                  
+        <div class="card">
+          <div class="card-body text-center bg-secondary text-white">
+            <h1 class="card-title fw-bold">Join Us</h1>
+            <p class="card-text">We Are Searching for a New Genius People To Join our Team.</p>
+          </div>
+          <img src="images/joinus.png" class="card-img-bottom joinusimg bg-secondary" alt="...">
+        </div>
+
+        </div>
+ -->
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <br>
+  <br>
+
+
+  <div class="container" id="contact">
+    <h2 class="card-title text-center fw-bold">Contact Us</h2>
+    <br>
+    <br>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="card cardteam mb-3">
+          <div class="card-body text-white">
+            <form>
+              <div class="form-group">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
+              </div>
+              <br>
+              <div class="form-group">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
+              </div>
+              <br>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>
+              <br>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+              </div>
+              <br>
+              <button type="submit" class="btn submitbtn btn-dark text-white fw-bold">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <br>
+  <br>
+  <br>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br>
+    <br>
+    <br>
+
+
+  <!-- Foooter -->  
+<div class="container">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <img src="images/Logo.jpeg" alt="" class="logo">
+        <br>
+        <p>0344-0580996</p>
+        <br>
+        <p>Productivityplus@gmail.com</p>
+
+      </div>
+
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5><strong>Quick Links</strong></h5>
+        <br>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#home" class="nav-link p-0 text-body-primary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#features" class="nav-link p-0 text-body-primary">Features</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5></h5>
+        <br>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#team" class="nav-link p-0 text-body-primary">Team</a></li>
+          <li class="nav-item mb-2 "><a href="#contact" class="nav-link p-0 text-body-primary">contact us</a></li>
+          <li class="nav-item mb-2"><a href="#login" class="nav-link p-0 text-body-primary">log in</a></li>
+        </ul>
+      </div>
+
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>&copy; 2024 ProductivityPlus. All rights reserved.</p>
+    </div>
+  </footer>
+</div>
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<script src="authentation.js"></script>
+<script src="temp.js"></script>
 </body>
+
 </html>
