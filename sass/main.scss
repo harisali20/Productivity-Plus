@@ -114,3 +114,30 @@ body{
   margin-right: auto;
 
 }
+
+
+
+
+//for the log in form
+
+
+
+.nav-tabs .nav-link.active {
+  background-color: $primary-color;
+  color: #fff;
+}
+
+.form-control:focus {
+  border-color: $primary-color;
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  border-color: $primary-color;
+
+  &:hover {
+    background-color: darken($primary-color, 10%);
+    border-color: darken($primary-color, 10%);
+  }
+}
