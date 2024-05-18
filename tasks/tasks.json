@@ -1,0 +1,112 @@
+[
+  {
+    "id": "1",
+    "title": "Design Homepage",
+    "description": "Create a responsive design for the homepage",
+    "dueDate": "2024-05-20T17:00:00Z",
+    "priority": "high",
+    "status": "in-progress",
+    "assignedTo": "John Doe",
+    "createdAt": "2024-05-10T10:00:00Z",
+    "updatedAt": "2024-05-15T08:00:00Z"
+  },
+  {
+    "id": "2",
+    "title": "Write API Documentation",
+    "description": "Document all API endpoints with examples",
+    "dueDate": "2024-05-22T17:00:00Z",
+    "priority": "medium",
+    "status": "pending",
+    "assignedTo": "Jane Smith",
+    "createdAt": "2024-05-10T11:00:00Z",
+    "updatedAt": "2024-05-11T09:00:00Z"
+  },
+  {
+    "id": "3",
+    "title": "Set Up CI/CD Pipeline",
+    "description": "Implement continuous integration and delivery pipeline",
+    "dueDate": "2024-05-25T17:00:00Z",
+    "priority": "high",
+    "status": "pending",
+    "assignedTo": "Alice Johnson",
+    "createdAt": "2024-05-10T12:00:00Z",
+    "updatedAt": "2024-05-14T10:00:00Z"
+  },
+  {
+    "id": "4",
+    "title": "Create User Login Page",
+    "description": "Develop login page with authentication",
+    "dueDate": "2024-05-18T17:00:00Z",
+    "priority": "high",
+    "status": "completed",
+    "assignedTo": "Michael Brown",
+    "createdAt": "2024-05-09T10:00:00Z",
+    "updatedAt": "2024-05-15T09:00:00Z"
+  },
+  {
+    "id": "5",
+    "title": "Optimize Database Queries",
+    "description": "Improve performance of database queries",
+    "dueDate": "2024-05-21T17:00:00Z",
+    "priority": "medium",
+    "status": "in-progress",
+    "assignedTo": "Emily Davis",
+    "createdAt": "2024-05-10T13:00:00Z",
+    "updatedAt": "2024-05-16T08:00:00Z"
+  },
+  {
+    "id": "6",
+    "title": "Conduct User Testing",
+    "description": "Perform user testing and gather feedback",
+    "dueDate": "2024-05-24T17:00:00Z",
+    "priority": "low",
+    "status": "pending",
+    "assignedTo": "David Wilson",
+    "createdAt": "2024-05-11T10:00:00Z",
+    "updatedAt": "2024-05-12T09:00:00Z"
+  },
+  {
+    "id": "7",
+    "title": "Implement New Features",
+    "description": "Add new features based on user feedback",
+    "dueDate": "2024-05-30T17:00:00Z",
+    "priority": "high",
+    "status": "pending",
+    "assignedTo": "Sophia Martinez",
+    "createdAt": "2024-05-12T11:00:00Z",
+    "updatedAt": "2024-05-13T09:00:00Z"
+  },
+  {
+    "id": "8",
+    "title": "Fix Bugs in Signup Form",
+    "description": "Resolve issues with the signup form",
+    "dueDate": "2024-05-19T17:00:00Z",
+    "priority": "high",
+    "status": "in-progress",
+    "assignedTo": "Liam Thomas",
+    "createdAt": "2024-05-09T14:00:00Z",
+    "updatedAt": "2024-05-15T10:00:00Z"
+  },
+  {
+    "id": "9",
+    "title": "Update Privacy Policy",
+    "description": "Revise the privacy policy to comply with new regulations",
+    "dueDate": "2024-05-23T17:00:00Z",
+    "priority": "medium",
+    "status": "pending",
+    "assignedTo": "Isabella Harris",
+    "createdAt": "2024-05-11T12:00:00Z",
+    "updatedAt": "2024-05-14T09:00:00Z"
+  },
+  {
+    "id": "10",
+    "title": "Design Marketing Materials",
+    "description": "Create materials for marketing campaign",
+    "dueDate": "2024-05-26T17:00:00Z",
+    "priority": "low",
+    "status": "pending",
+    "assignedTo": "Ethan Lee",
+    "createdAt": "2024-05-12T13:00:00Z",
+    "updatedAt": "2024-05-13T10:00:00Z"
+  }
+]
