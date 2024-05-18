@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: Arial, sans-serif;
@@ -12,8 +13,8 @@ body {
 .sidebar {
     background-color: #28292c;
     color: #fff;
-    width: 20vw;
-    height: 100vh;
+    width: 20%;
+    min-height: 100%;
 }
 
 #logo{
@@ -48,12 +49,25 @@ img{
     padding: 0 3vh 0 0;
 }
 
+.main-con,
 .content {
-    width: 80vw;
-    padding: 2vw;
+    width: 80%;
+    min-width: fit-content;
+    min-height: 91vh;
+    padding:0;
     justify-content: center;
-    background-color: #2b2d30;
+    background-color: #33363a;
     color: white;
+}
+.content{
+    width: 100%;
+    padding: 4vh;
+}
+header{
+    display: flex;
+    justify-content:end;
+    padding: 2vh 5vh;
+    background-color: #28292c;
 }
 
 .navbar{
@@ -80,4 +94,39 @@ img{
     padding: 2vh;
     margin: 2vh;
     border-radius: 10px;
+}
+th,td{
+    color: white;
+    max-width: 5vw;
+    max-height: 5vw;
+    overflow: auto;
+}
+/* width */
+td::-webkit-scrollbar {
+    width: 1vw;
+}
+
+/* Track */
+td::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+td::-webkit-scrollbar-thumb {
+    background: #94abaa;
+    border-radius: 10px;
+}
+.taskAll{
+    padding: 3vh;
+    border: 0.1vw solid white;
+    margin:2vw 0;
+}
+
+#addTask,#displayTask{
+    width: 50%;
+}
+
+canvas{
+    background-color: white;
 }

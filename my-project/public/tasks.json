@@ -6,9 +6,7 @@
     "dueDate": "2024-05-20T17:00:00Z",
     "priority": "high",
     "status": "in-progress",
-    "assignedTo": "John Doe",
-    "createdAt": "2024-05-10T10:00:00Z",
-    "updatedAt": "2024-05-15T08:00:00Z"
+    "assignedTo": "John Doe"
   },
   {
     "id": "2",
@@ -17,9 +15,7 @@
     "dueDate": "2024-05-22T17:00:00Z",
     "priority": "medium",
     "status": "pending",
-    "assignedTo": "Jane Smith",
-    "createdAt": "2024-05-10T11:00:00Z",
-    "updatedAt": "2024-05-11T09:00:00Z"
+    "assignedTo": "Jane Smith"
   },
   {
     "id": "3",
@@ -28,9 +24,7 @@
     "dueDate": "2024-05-25T17:00:00Z",
     "priority": "high",
     "status": "pending",
-    "assignedTo": "Alice Johnson",
-    "createdAt": "2024-05-10T12:00:00Z",
-    "updatedAt": "2024-05-14T10:00:00Z"
+    "assignedTo": "Alice Johnson"
   },
   {
     "id": "4",
@@ -39,9 +33,7 @@
     "dueDate": "2024-05-18T17:00:00Z",
     "priority": "high",
     "status": "completed",
-    "assignedTo": "Michael Brown",
-    "createdAt": "2024-05-09T10:00:00Z",
-    "updatedAt": "2024-05-15T09:00:00Z"
+    "assignedTo": "Michael Brown"
   },
   {
     "id": "5",
@@ -50,9 +42,7 @@
     "dueDate": "2024-05-21T17:00:00Z",
     "priority": "medium",
     "status": "in-progress",
-    "assignedTo": "Emily Davis",
-    "createdAt": "2024-05-10T13:00:00Z",
-    "updatedAt": "2024-05-16T08:00:00Z"
+    "assignedTo": "Emily Davis"
   },
   {
     "id": "6",
@@ -61,9 +51,7 @@
     "dueDate": "2024-05-24T17:00:00Z",
     "priority": "low",
     "status": "pending",
-    "assignedTo": "David Wilson",
-    "createdAt": "2024-05-11T10:00:00Z",
-    "updatedAt": "2024-05-12T09:00:00Z"
+    "assignedTo": "David Wilson"
   },
   {
     "id": "7",
@@ -72,9 +60,7 @@
     "dueDate": "2024-05-30T17:00:00Z",
     "priority": "high",
     "status": "pending",
-    "assignedTo": "Sophia Martinez",
-    "createdAt": "2024-05-12T11:00:00Z",
-    "updatedAt": "2024-05-13T09:00:00Z"
+    "assignedTo": "Sophia Martinez"
   },
   {
     "id": "8",
@@ -83,9 +69,7 @@
     "dueDate": "2024-05-19T17:00:00Z",
     "priority": "high",
     "status": "in-progress",
-    "assignedTo": "Liam Thomas",
-    "createdAt": "2024-05-09T14:00:00Z",
-    "updatedAt": "2024-05-15T10:00:00Z"
+    "assignedTo": "Liam Thomas"
   },
   {
     "id": "9",
@@ -94,9 +78,7 @@
     "dueDate": "2024-05-23T17:00:00Z",
     "priority": "medium",
     "status": "pending",
-    "assignedTo": "Isabella Harris",
-    "createdAt": "2024-05-11T12:00:00Z",
-    "updatedAt": "2024-05-14T09:00:00Z"
+    "assignedTo": "Isabella Harris"
   },
   {
     "id": "10",
@@ -105,8 +87,6 @@
     "dueDate": "2024-05-26T17:00:00Z",
     "priority": "low",
     "status": "pending",
-    "assignedTo": "Ethan Lee",
-    "createdAt": "2024-05-12T13:00:00Z",
-    "updatedAt": "2024-05-13T10:00:00Z"
+    "assignedTo": "Ethan Lee"
   }
 ]
